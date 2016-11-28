@@ -1,0 +1,45 @@
+﻿<Window x:Class="StormBoard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:this="clr-namespace:StormBoard"
+        Title="MainWindow" Height="400" Width="600">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/NoteTemplates.xaml"/>
+                <ResourceDictionary Source="Resources/MainTemplates.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Background="#cccccc">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+    
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Stormboard" Margin="5" FontSize="26" FontWeight="Bold" Foreground="#333333"/>
+        </StackPanel>
+
+
+        <TabControl Name="tabControl" SelectionChanged="tabControl_SelectionChanged" Grid.Row="1">
+            <TabItem Header="Test 123">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Border BorderBrush="Black" BorderThickness="2" Background="White">
+                        <Canvas x:Name="workArea">
+                            <this:Note NoteText="Hello World!" Template="{StaticResource NoteTemplate}" Canvas.Top="50" Canvas.Left="50"/>
+                        </Canvas>
+                    </Border>
+                    <Button Content="Add" Click="Button_Click" HorizontalAlignment="Right" Margin="10 5" Grid.Row="1"
+                                Template="{StaticResource SeamlessBorderedButton}"/>
+                </Grid>
+            </TabItem>
+            <TabItem Name="newTab" Header="+"/>
+        </TabControl>
+    </Grid>
+</Window>

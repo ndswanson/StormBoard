@@ -1,0 +1,17 @@
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\bin\Debug\StormBoard.exe.config
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\StormBoard.csprojResolveAssemblyReference.cache
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\MainWindow.baml
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\MainWindow.g.cs
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\App.g.cs
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\StormBoard_MarkupCompile.cache
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\StormBoard.g.resources
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\StormBoard.Properties.Resources.resources
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\StormBoard.csproj.GenerateResource.Cache
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\bin\Debug\StormBoard.exe
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\bin\Debug\StormBoard.pdb
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\StormBoard.exe
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\StormBoard.pdb
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\Resources\NoteTemplates.baml
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\StormBoard_MarkupCompile.lref
+c:\users\noah\documents\Projects\CppUnrealBook\StormBoard\StormBoard\obj\Debug\Resources\MainTemplates.baml
